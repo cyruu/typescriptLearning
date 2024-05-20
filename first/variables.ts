@@ -6,7 +6,7 @@ function toUpper(val: string) {
   return val.toUpperCase();
 }
 
-function signUp(name, email, phone) {
+function signUp(name: string, email: string, phone: number) {
   return 1 + name;
 }
 // function signUp(name: string, email: string, phone: number) {}
