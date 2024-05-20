@@ -21,7 +21,10 @@ heros.map((hero): string => {
   return "hero is " + hero;
 });
 
-function consoleError(errMsg: string) {
+function consoleError(errMsg: string): void {
   console.log(errMsg);
+}
+function handleError(errMsg: string): never {
+  throw new Error(errMsg);
 }
 export {};
