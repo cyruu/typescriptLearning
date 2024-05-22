@@ -33,9 +33,15 @@ myUser.email = "gmail.com";
 // again
 
 type anotherType = {
-  id: number;
+  readonly id: number;
   name: string;
-  isValid: boolean;
+  isValid?: boolean;
+};
+
+let employee: anotherType = {
+  id: 20,
+  name: "ram",
+  isValid: false,
 };
 
 export {};
