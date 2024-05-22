@@ -30,4 +30,12 @@ let myUser: myType = {
 myUser.email = "gmail.com";
 // myUser._id = "newId"; // cant because it is readonly property
 
+// again
+
+type anotherType = {
+  id: number;
+  name: string;
+  isValid: boolean;
+};
+
 export {};
