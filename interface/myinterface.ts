@@ -26,6 +26,7 @@ const user1: Admin = {
   userId: 101,
   role: AdminRoles.dashboardMangager,
   // now i have to add Address
+  Address: "ktm",
   startTrial: () => {
     return "start";
   },
