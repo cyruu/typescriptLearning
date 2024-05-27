@@ -8,10 +8,7 @@ interface User {
   getCoupon(couponName: string, value: number): number;
 }
 
-interface User {
-  githubToken: number;
-}
-
+// if i create another interface it merges
 interface Admin extends User {
   role: AdminRoles;
 }
@@ -25,7 +22,7 @@ const user1: Admin = {
   email: "cy@gmail.com",
   userId: 101,
   role: AdminRoles.dashboardMangager,
-  githubToken: 101,
+
   startTrial: () => {
     return "start";
   },
