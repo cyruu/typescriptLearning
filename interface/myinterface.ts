@@ -10,7 +10,7 @@ interface User {
 
 // if i create another interface it merges
 interface User {
-  role: String;
+  Address: String;
 }
 interface Admin extends User {
   role: AdminRoles;
